@@ -1,0 +1,78 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    background: #333;
+    padding: 10px 0;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    transition: background-color 0.3s;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #ff9800;
+}
+
+.section {
+    height: 100vh;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+#home {
+    background: #2193b0;
+    background: linear-gradient(to right, #2193b0, #6dd5ed);
+    color: white;
+}
+
+#about {
+    background: #f12711;
+    background: linear-gradient(to right, #f12711, #f5af19);
+    color: white;
+}
+
+#services {
+    background: #7b4397;
+    background: linear-gradient(to right, #7b4397, #dc2430);
+    color: white;
+}
+
+#contact {
+    background: #2c3e50;
+    background: linear-gradient(to right, #2c3e50, #4ca1af);
+    color: white;
+}
+
+/* Scroll effect */
+.scrolled {
+    background: #555;
+}
